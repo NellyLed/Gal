@@ -1,0 +1,46 @@
+ul#menu,
+ul#menu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul#menu a,
+ul#menu span {
+    display: block;
+    text-decoration: none;
+}
+
+ul#menu li {
+    margin-top: 0px;
+}
+
+ul#menu li a,
+ul#menu li span {
+    background: #800000;
+    color: white;
+    padding: 7px;
+}
+
+ul#menu li a:hover,
+ul#menu li span:hover {
+    background: #d2691e;
+}
+
+ul#menu li ul li a {
+    background: #ffdead;
+    color: #000000;
+    padding-left: 20px;
+}
+
+ul#menu li ul li a:hover {
+    background: #f4a460;
+    border-left: 5px #000000 solid;
+    padding-left: 15px;
+}
+
+body {
+    background-image: url('./image/панчан_2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}

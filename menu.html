@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Меню</title>
+        <link rel="stylesheet" href="style_2.css" />
+    </head>
+    <body>
+        <ul id="menu">
+            <li>
+                <span>Блюда с лапшой</span>
+                <ul>
+                    <li>
+                        <a href="https://www.iamcook.ru/showrecipe/11008"
+                            >Салат с фунчозой и овощами</a
+                        >
+                    </li>
+                    <li>
+                        <a href="https://www.iamcook.ru/showrecipe/9437"
+                            >Чапчхэ</a
+                        >
+                    </li>
+                    <li>
+                        <a href="https://www.iamcook.ru/showrecipe/5962"
+                            >Кукси по-корейски</a
+                        >
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <span>Супы</span>
+                <ul>
+                    <li>
+                        <a
+                            href="https://alimero.ru/blog/links/kamdyatan-koreyskiy-kartofelniy-sup.60250.html"
+                            >Камдятан</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://alimero.ru/blog/links/koreyskiy-miso-sup-dengjang-chigae-s-vodoroslyami.60945.html"
+                            >Мисо-суп</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://alimero.ru/blog/links/sup-iz-vodorosley-koreyskiy.46568.html"
+                            >Суп из водорослей</a
+                        >
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <span>Десерты</span>
+                <ul>
+                    <li>
+                        <a
+                            href="https://korshop.ru/recipe/koreyskaya-kukhnya/koreyskie-sladosti/sladkie-risovye-pirozhnye-s-fasolevoj-nachinkoj-/"
+                            >Рисовые пирожные с фасолевой начинкой</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://korshop.ru/recipe/koreyskaya-kukhnya/koreyskie-sladosti/pastila-po-korejski/"
+                            >Пастила по-корейски</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://korshop.ru/recipe/koreyskaya-kukhnya/koreyskie-sladosti/zharenoe-medovoe-pechene-yakkva/"
+                            >Медовое печенье(Якква)</a
+                        >
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('#menu ul').hide();
+                $('#menu li span').click(function () {
+                    $(this).next().slideToggle('normal');
+                });
+            });
+        </script>
+    </body>
+</html>

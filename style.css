@@ -1,0 +1,47 @@
+.menu-item {
+    border: 2px solid green;
+    border-collapse: collapse;
+    font-family: arial;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    font-style: oblique; /*наклон*/
+    font-weight: bold; /*жирность*/
+    margin: 10px;
+    width: 450px;
+    padding: 10px;
+    background: white;
+    text-align: center;
+}
+
+.menu-item .submenu {
+    background: #ffe4c4;
+    position: absolute;
+    cursor: pointer;
+    padding: 10px;
+    width: 450px;
+    margin: 0;
+    text-align: center;
+
+    border-radius: 8px;
+}
+.menu-item .submenu a {
+    text-decoration: none; /*подчеркивает текст*/
+    color: black;
+}
+img {
+    margin-left: 30px;
+    opacity: 1;
+    height: 250px;
+    width: 410px;
+}
+
+body {
+    background-image: url('./image/фон.jpg');
+    background-attachment: fixed; /*зафиксировать изображение*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav {
+    margin: 0 auto;
+}
